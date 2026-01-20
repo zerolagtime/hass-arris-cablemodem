@@ -6,9 +6,9 @@
 
 Monitor your ARRIS cable modem's signal quality, connection status, and diagnostics directly in Home Assistant with automatic modem discovery!
 
-![ARRIS Modem Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)
+![ARRIS Modem Dashboard](static/images/sb6813_home.png)
 
-## ✨ Features
+## Features
 
 -  **Automatic Discovery** - Finds your modem automatically on setup
 -  **Comprehensive Monitoring** - Track all signal quality metrics
@@ -17,7 +17,7 @@ Monitor your ARRIS cable modem's signal quality, connection status, and diagnost
 -  **Per-Channel Stats** - Individual metrics for each bonded channel
 -  **Zero Configuration** - Works out of the box with common setups
 
-## 📱 Supported Devices
+## Supported Devices
 
 - ARRIS SB6183 
 - ARRIS SB6190 
@@ -26,7 +26,7 @@ Monitor your ARRIS cable modem's signal quality, connection status, and diagnost
 
 Other ARRIS modems with similar web interfaces may also work!
 
-##  Sensors Provided
+## Sensors Provided
 
 ### Summary Sensors
 | Sensor | Description | Unit |
