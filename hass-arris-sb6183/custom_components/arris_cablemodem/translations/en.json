@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ARRIS Cable Modem",
+        "description": "Set up your ARRIS cable modem. Auto-discovery will search for supported modems on your network."
+      },
+      "discovery": {
+        "title": "Select Your Modem",
+        "description": "Found {found_count} modem(s). Select one to configure:",
+        "data": {
+          "modem": "Modem"
+        }
+      },
+      "manual": {
+        "title": "Manual Configuration",
+        "description": "Enter the IP address of your ARRIS modem",
+        "data": {
+          "host": "Host IP Address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to modem. Check the IP address and ensure the modem's web interface is accessible."
+    },
+    "abort": {
+      "already_configured": "This modem is already configured"
+    }
+  }
+}

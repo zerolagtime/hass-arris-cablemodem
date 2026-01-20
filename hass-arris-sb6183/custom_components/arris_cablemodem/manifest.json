@@ -1,0 +1,12 @@
+{
+  "domain": "arris_sb6183",
+  "name": "ARRIS Cable Modem",
+  "codeowners": ["@zerolagtime"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/zerolagtime/hass-arris-cablemodem",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": ["beautifulsoup4==4.12.0", "requests==2.31.0"],
+  "version": "0.2.0"
+}
